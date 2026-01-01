@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "452078a2-bbd4-4c04-8578-7789ad2db52d",
+		"name": "laravel-export",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45905277"
+	},
+	"item": [
+		{
+			"name": "api/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/products?is_active=true&on_sale=true&limit=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "is_active",
+							"value": "true"
+						},
+						{
+							"key": "on_sale",
+							"value": "true"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/products/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/products/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"is_active\": true,\n  \"name\": \"Kablosuz Mouse\",\n  \"description\": \"Sessiz tıklama, 2.4GHz, 1600 DPI\",\n  \"barcode\": \"8691234567890\",\n  \"warranty_period\": 24,\n  \"list_price\": 499.90,\n  \"sale_price\": 399.90,\n  \"quantity\": 150,\n  \"on_sale\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/products/51",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products",
+						"51"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/products/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"is_active\": true,\n  \"name\": \"Kablosuz Mouse\",\n  \"description\": \"Sessiz tıklama, 2.4GHz, 1600 DPI\",\n  \"barcode\": \"8691234567890\",\n  \"warranty_period\": 24,\n  \"list_price\": 499.90,\n  \"sale_price\": 399.90,\n  \"quantity\": 150,\n  \"on_sale\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/products/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/products/export",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/products/export",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products",
+						"export"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

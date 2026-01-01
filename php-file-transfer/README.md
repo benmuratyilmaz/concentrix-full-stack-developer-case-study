@@ -70,3 +70,4 @@ Bu proje, PHP ile dosya yükleme, listeleme, detay görüntüleme, indirme ve si
 
 - Upload edilen dosyalar `public/uploads` dizininde tutulur.
 - Maksimum dosya boyutu 10MB; izin verilen uzantılar: `pdf`, `jpg`, `png`, `txt`.
+- Postman istekleri örnekleri için `postman/` klasörüne bakabilirsiniz.

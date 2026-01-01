@@ -105,3 +105,4 @@ curl "http://localhost:8000/api/products/export"
 
 - Export çıktısı `storage/app/exports/products_YYYYMMDD_HHMM.json` altında oluşturulur.
 - `sale_price` değerinin `list_price`’dan büyük olması engellenir; zorunlu alanlar olmadan kayıt oluşturulmaz.
+- Postman istekleri örnekleri için `postman/` klasörüne bakabilirsiniz.
