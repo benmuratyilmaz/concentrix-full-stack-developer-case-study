@@ -65,8 +65,8 @@ npm run dev
 
 http://localhost:5173
 
-![Home Ekran Görüntüsü](./screenshot/home.png)
+![Home Ekran Görüntüsü](./screenshot/home.jpg)
 
-![Detail Ekran Görüntüsü](./screenshot/detail.png)
+![Detail Ekran Görüntüsü](./screenshot/detail.jpg)
 
-![Modal Ekran Görüntüsü](./screenshot/mobile.png)
+![Modal Ekran Görüntüsü](./screenshot/mobile.jpg)
