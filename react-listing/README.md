@@ -69,4 +69,4 @@ http://localhost:5173
 
 ![Detail Ekran Görüntüsü](./screenshot/detail.png)
 
-![Modal Ekran Görüntüsü](./screenshot/modal.png)
+![Modal Ekran Görüntüsü](./screenshot/mobile.png)
