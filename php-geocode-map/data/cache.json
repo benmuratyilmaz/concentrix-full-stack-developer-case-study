@@ -1,0 +1,118 @@
+{
+    "kartal, i̇stanbul": {
+        "status": "success",
+        "lat": 40.88858,
+        "lng": 29.1856536,
+        "updated_at": "2025-12-29T19:42:51+03:00"
+    },
+    "kadıköy, i̇stanbul": {
+        "status": "success",
+        "lat": 40.9912955,
+        "lng": 29.0245631,
+        "updated_at": "2025-12-29T19:42:53+03:00"
+    },
+    "beşiktaş, i̇stanbul": {
+        "status": "success",
+        "lat": 41.0428465,
+        "lng": 29.0075283,
+        "updated_at": "2025-12-29T19:42:54+03:00"
+    },
+    "üsküdar, i̇stanbul": {
+        "status": "success",
+        "lat": 41.0265498,
+        "lng": 29.0151321,
+        "updated_at": "2025-12-29T19:42:57+03:00"
+    },
+    "ataşehir, i̇stanbul": {
+        "status": "success",
+        "lat": 40.9929379,
+        "lng": 29.1135187,
+        "updated_at": "2025-12-29T19:42:58+03:00"
+    },
+    "çankaya, ankara": {
+        "status": "success",
+        "lat": 39.9207759,
+        "lng": 32.8540497,
+        "updated_at": "2025-12-29T19:42:59+03:00"
+    },
+    "kızılay, ankara": {
+        "status": "success",
+        "lat": 39.9215522,
+        "lng": 32.8517202,
+        "updated_at": "2025-12-29T19:43:01+03:00"
+    },
+    "konak, i̇zmir": {
+        "status": "success",
+        "lat": 38.4192537,
+        "lng": 27.128469,
+        "updated_at": "2025-12-29T19:43:02+03:00"
+    },
+    "karşıyaka, i̇zmir": {
+        "status": "success",
+        "lat": 38.5034452,
+        "lng": 27.1134554,
+        "updated_at": "2025-12-29T19:43:03+03:00"
+    },
+    "nilüfer, bursa": {
+        "status": "success",
+        "lat": 40.2169975,
+        "lng": 28.9847907,
+        "updated_at": "2025-12-29T19:43:05+03:00"
+    },
+    "odunpazarı, eskişehir": {
+        "status": "success",
+        "lat": 39.7743941,
+        "lng": 30.519116,
+        "updated_at": "2025-12-29T19:43:06+03:00"
+    },
+    "merkezefendi, denizli": {
+        "status": "success",
+        "lat": 37.7869799,
+        "lng": 29.0909657,
+        "updated_at": "2025-12-29T19:43:07+03:00"
+    },
+    "kepez, antalya": {
+        "status": "success",
+        "lat": 36.9176296,
+        "lng": 30.7149914,
+        "updated_at": "2025-12-29T19:43:08+03:00"
+    },
+    "muratpaşa, antalya": {
+        "status": "success",
+        "lat": 36.8865728,
+        "lng": 30.7030242,
+        "updated_at": "2025-12-29T19:43:10+03:00"
+    },
+    "seyhan, adana": {
+        "status": "success",
+        "lat": 36.9863599,
+        "lng": 35.3252861,
+        "updated_at": "2025-12-29T19:43:11+03:00"
+    },
+    "atakum, samsun": {
+        "status": "success",
+        "lat": 41.3322588,
+        "lng": 36.2704652,
+        "updated_at": "2025-12-29T19:43:12+03:00"
+    },
+    "bornova, i̇zmir": {
+        "status": "success",
+        "lat": 38.4660651,
+        "lng": 27.2190721,
+        "updated_at": "2025-12-29T19:43:13+03:00"
+    },
+    "meram, konya": {
+        "status": "success",
+        "lat": 37.8653357,
+        "lng": 32.4758962,
+        "updated_at": "2025-12-29T19:43:15+03:00"
+    },
+    "şaşmaz diye bir yer, ankara": {
+        "status": "failed",
+        "updated_at": "2025-12-29T19:43:16+03:00"
+    },
+    "asdfghjkl mahallesi, türkiye": {
+        "status": "failed",
+        "updated_at": "2025-12-29T19:43:17+03:00"
+    }
+}
