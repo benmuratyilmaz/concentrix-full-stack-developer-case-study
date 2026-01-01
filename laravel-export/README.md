@@ -86,19 +86,24 @@ curl "http://localhost:8000/api/products/export"
 ## Kurulum
 
 1) `.env.example` dosyasını `.env` olarak kopyalayın ve veritabanı bilgilerini girin.
+
 2) Bağımlılıkları yükleyin:
    ```bash
    composer install
    ```
-3) Migration ve seeder çalıştırın:
+3) Uygulama anahtarını oluşturun:
+   ```bash
+   php artisan key:generate
+   ```
+4) Migration ve seeder çalıştırın:
    ```bash
    php artisan migrate --seed
    ```
-4) Uygulamayı başlatın:
+5) Uygulamayı başlatın:
    ```bash
    php artisan serve
    ```
-5) API: `http://localhost:8000/api/*`
+6) API: `http://localhost:8000/api/*`
 
 
 ## Notlar
