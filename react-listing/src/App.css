@@ -1,0 +1,31 @@
+.button {
+  background-color: #25e2cc;
+  font-weight: 700;
+  fill: #003d5b;
+  color: #003d5b;
+  border-radius: 100px;
+  padding: 12px 24px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #fbca18;
+}
+
+.main-position {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .main-position {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}

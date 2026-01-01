@@ -1,0 +1,91 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 9999;
+}
+
+.modal {
+  width: min(700px, 100%);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Header */
+.modal .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  background: #003d5b;
+}
+
+.modal .header h3 {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.modal .header button {
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: transparent;
+  color: #fff;
+  border-radius: 999px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal .header button:hover {
+  background-color: #fbca18;
+  color: #003d5b;
+}
+
+/* Body */
+.modal .body {
+  padding: 16px 18px;
+  background-color: #fff;
+}
+
+/* UL as 2-column grid (label/value side by side) */
+.modal .body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 10px 14px;
+}
+
+/* Label items: odd li's */
+.modal .body ul li:nth-child(odd) {
+  font-weight: 700;
+  color: #007380;
+}
+
+/* Value items: even li's */
+.modal .body ul li:nth-child(even) {
+  color: rgba(0, 0, 0, 0.78);
+}
+
+/* Mobile */
+@media (max-width: 520px) {
+  .modal .body ul {
+    grid-template-columns: 1fr;
+  }
+
+  .modal .body ul li:nth-child(odd) {
+    margin-top: 10px;
+  }
+
+  .modal .body ul li:nth-child(odd):first-child {
+    margin-top: 0;
+  }
+}
